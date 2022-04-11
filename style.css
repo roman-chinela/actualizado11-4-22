@@ -30,7 +30,7 @@
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(236, 230, 230)
+    background-color: rgb(187, 181, 181)
 }
 .fotoPortadaP{
     grid-area: fotoPortada;
