@@ -13,7 +13,7 @@
     grid-area: header;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    color: aliceblue;
+    color: black
     text-align: center;
     font-weight: bold;
     padding-top: 5px;
@@ -30,7 +30,7 @@
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: azure;
+    background-color: rgb(236, 230, 230)
 }
 .fotoPortadaP{
     grid-area: fotoPortada;
@@ -47,13 +47,13 @@
 .fotoPortadaH{
     width: 50%;
     height: 50%;
-    background-color: rgb(9, 9, 51) 10rem 10rem;
+    
 }
 
 
 .subTit1{
     grid-area: subTit1;
-    color: aliceblue;
+    color: black
     font-style: italic;
     text-align: center;
     font-size: 35px;
@@ -65,7 +65,7 @@
 
 .subTit2{
     grid-area: subTit2;
-    color: aliceblue;
+    color: black;
     font-style: italic;
     font-size: 35px;
     font-family: inter;
