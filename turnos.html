@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyTurn">
+
+    <nav class="menu">
+        <div><a href="index.html">Inicio</a></div>
+        <div><a href="formacionProfesional.html">Formación Profesional</a></div>
+        <div><a href="experiencia.html">Experiencia Profesional</a></div>
+        <div><a href="prestaciones.html">Prestaciones</a></div>
+        <div><a href="nuestroEspacio.html">Nuestro Espacio</a></div>
+    </nav>
+    
+
+    <header class="headerTurn">
+        <p>Aquí podes solicitar tu turno o plantear tus inquietudes...</p>
+    </header>
+
+    <div class="turnContainer">
+
+        <header class=".headerform">
+            <p> Queremos conocerte...</p>
+            <p><em>Decinos tu nombre</em></p>
+        </header> 
+
+        <form action="form.php" method="post" class="formNombre"></form>       
+           <div class="filaForm">
+               <label for="nomreCompleto">Nombre</label>
+               <input type="email" id="nombreCompleto"  placeholder="Escribe aquí" name="nombre" required>
+           </div>
+
+            <div class="mailForm">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Escribe aquí" name="email" required>
+                
+            </div>
+
+            <fieldset class="legadoFila">
+                <legend>Escribe tu comentario o inquietud</legend>
+                <input type="radio" name="comentario" id="comentario1">
+                <label for="comertario1" class="input">Cirugia</label>
+
+                <input type="radio" name="comentario" id="comentario2">
+                <label for="comertario2" class="input">Flebologia</label>
+            </fieldset>
+
+            <div class="consultas">
+                <label for="colsult">Consultas</label>
+                <textarea name="textarea" id="consult" ></textarea>
+                <p class="instrucciones">Escribe aquí tu inquietud></p>
+            </div>
+
+            <div class="consultas">
+                <button type="turnos">Turnos</button>
+            </div>
+        
+        </form>
+
+        
+    </div>
+    <nav class="footer">
+        <div class="itemFooter">
+            <div>
+                <p>Teléfono/Wathsapp: 3412148320</p>
+            </div>
+            <div>
+                <p>drschiavoni.vascular@instagram.com</p>
+            </div>
+            <div>
+                <p>Dirección: Pte Roca 1309</p>
+            </div>
+            <div><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.974566910205!2d-60.64887848518814!3d-32.95168087947241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab13c2b02e81%3A0x2ab796ce121660cd!2sCYA%2C%20Pres.%20Roca%201309%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1647289237835!5m2!1ses!2sar"
+                    width="180" height="55" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        </div>
+    </nav>
+   
+</body>
+
+</html>
